@@ -132,14 +132,38 @@ footer{
 }
 
 .producto-precio{
-    font: size 17px;
+    font-size: 17px;
     font-weight: bold;
     margin-top: 10px;
 }
 
 /*PESTAÑA CONTACTO E INFORMACION*/
 
+.tituloPrincipal{
+    margin: 0.5em;
+}
 
+.contactos{
+    text-align: center;
+    font-size: 17px;
+}
+
+.tituloSecundario{
+    font-size: 18px;
+    margin: 0.5em;
+}
+
+.mensaje{
+    display: flex;
+    display: table-row;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+form label, form{
+    font-size: 17px;
+    margin: 15px 15px 15px 15px;
+}
 
 @media screen and (max-width: 480px){
     
