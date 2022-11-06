@@ -1,0 +1,160 @@
+body{
+    background: whitesmoke;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+header{
+    background-color: mediumseagreen;
+    padding: 20px 0;
+}
+
+.logo1{
+    width: 15%;
+    border-radius: 35%;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 55px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(20, 20, 110);
+}
+
+.banner{
+    width: 100%;
+}
+
+.principal{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+p{
+    text-align:center;
+    margin: 0 0 1em;
+}
+
+.mapa{
+    padding: 3em 0;
+}
+
+.mapaContenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+    background-color: mediumseagreen;
+    padding: 40px;
+}
+
+.logo2{
+    width: 15%;
+    border-radius: 35%;
+    justify-content: space-around;
+}
+
+.logo2:hover{
+    transition: 5s;
+    transform: scale(1.5);
+}
+
+.copyright{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 40px;
+    margin-bottom: 1.5px;
+}
+
+/*A PARTIR DE ACA PESTAÑA PRODUCTOS*/
+
+.caja-productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.caja-productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 10px 10px 10px 10px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid mediumseagreen;
+    border-radius: 35px;
+}
+
+.caja-productos h2{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.img{
+    border-radius: 15px;
+}
+
+.producto-descripcion{
+    font-size:17px;
+}
+
+.producto-precio{
+    font: size 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*PESTAÑA CONTACTO E INFORMACION*/
+
+
+
+@media screen and (max-width: 480px){
+    
+    .tituloPrincipal{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .caja, .principal, .mapa-contenido, .p{
+        width: auto;
+    }
+
+}
+
+
